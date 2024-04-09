@@ -12,3 +12,5 @@ menuBtn.addEventListener("click", () => Menu());
 
 const contactBtn = document.getElementById("contact-button");
 contactBtn.addEventListener("click", () => Contact());
+
+Landing();

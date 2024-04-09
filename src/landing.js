@@ -1,4 +1,4 @@
-import heroImage from './germanfood.jpeg';
+import heroImage from './restaurant.jpeg';
 
 function removeAllChildren(parent) {
     while (parent.firstChild) {
@@ -20,6 +20,7 @@ function Landing() {
     const newImg = new Image();
     newImg.src = heroImage;
     newImg.alt = "Image from Unsplash: Jay Wennington";
+    newImg.width = 400;
     content.appendChild(newImg);
 }
 
